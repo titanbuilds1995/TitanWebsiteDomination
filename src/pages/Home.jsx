@@ -3,6 +3,8 @@ import { useSeo } from '@/lib/seo';
 import HeroSection from '../components/home/HeroSection';
 import CredibilitySection from '../components/home/CredibilitySection';
 import HowItWorksSection from '../components/home/HowItWorksSection';
+import WhatWeBuySection from '../components/home/WhatWeBuySection';
+import FaqSection from '../components/home/FaqSection';
 import AboutSection from '../components/home/AboutSection';
 import ContactSection from '../components/home/ContactSection';
 import Footer from '../components/home/Footer';
@@ -29,8 +31,16 @@ export default function Home() {
         <HowItWorksSection />
       </div>
       
+      <div id="what-we-buy">
+        <WhatWeBuySection />
+      </div>
+
       <div id="about">
         <AboutSection />
+      </div>
+
+      <div id="faq">
+        <FaqSection />
       </div>
       
       <div id="contact">

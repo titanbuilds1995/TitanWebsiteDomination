@@ -58,6 +58,8 @@ must be OFF** and (Advanced settings → Structured data) **"Structured data" OF
 | 2026-10-27 | Branded favicon (`public/favicon.svg`) and Apple touch icon. |
 | 2026-10-27 | App renamed "Titan REI Pro" → "Titan Realty Investments" in `base44/config.jsonc`. |
 | 2026-10-27 | Wrong email domain (support@titanrealty.com) fixed on Privacy and Terms pages. |
+| 2026-10-27 | Home: new "What We Buy, and Where" section (`WhatWeBuySection.jsx`) with plain-language keyword copy on land, equestrian and agricultural buyers in South Florida. |
+| 2026-10-27 | Home: new FAQ section (`FaqSection.jsx`), 8 questions with `FAQPage` structured data. |
 
 ## 5. Backlog — things an agent can do WITHOUT input from Rodrigo
 
@@ -99,4 +101,5 @@ Work top-down. Skip anything that would require inventing facts.
 
 ## 7. Change log (agents append here, newest first)
 
+- 2026-10-27 — Added a "What We Buy, and Where" section and an 8-question FAQ to the home page (FAQ also helps Google show answers in search). Both use only facts already on the site. Not live until Publish is clicked. — Claude
 - 2026-10-27 — Initial on-page SEO pass (see Section 4). — Claude, with Rodrigo.
