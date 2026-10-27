@@ -65,12 +65,6 @@ must be OFF** and (Advanced settings → Structured data) **"Structured data" OF
 
 Work top-down. Skip anything that would require inventing facts.
 
-1. **Home page keyword copy.** Add a short section (or expand About) that says in plain words what we buy
-   and where: "land buyers in Palm Beach County", "equestrian estate buyers Wellington", "we purchase
-   agricultural acreage in South Florida". Keep the discreet tone. Preserve the existing H1.
-2. **FAQ section on Home** (6–8 questions: how off-market sales work, timelines, who we buy from,
-   do you buy with structures, minimum acreage, confidentiality) with `FAQPage` JSON-LD injected via a
-   small component. Only answer with what Section 1 supports.
 3. **"Sell Your Land" page** (`src/pages/SellYourLand.jsx`): the process in steps, what we buy, who it
    is for, a call CTA. Target phrase: "sell land South Florida off-market".
 4. **Asset-type pages**, one at a time, only with substantive, non-invented copy (400+ words each):
