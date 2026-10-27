@@ -1,8 +1,15 @@
 import React from 'react';
+import { useSeo } from '@/lib/seo';
 import { motion } from 'framer-motion';
 import { FileText, Mail, Phone } from 'lucide-react';
 
 export default function TermsConditions() {
+  useSeo({
+    title: 'Terms & Conditions',
+    description: 'Terms and conditions for using the Titan Realty Investments website and communicating with our acquisitions team.',
+    path: '/TermsConditions',
+  });
+
   const lastUpdated = "January 27, 2026";
 
   return (
@@ -103,7 +110,7 @@ export default function TermsConditions() {
 
                 <div>
                   <h4 className="font-bold text-blue-900 mb-2">Get Help</h4>
-                  <p>For assistance with SMS communications, reply <strong>HELP</strong> to any message or contact us at support@titanrealty.com or (561) 412-6929.</p>
+                  <p>For assistance with SMS communications, reply <strong>HELP</strong> to any message or contact us at rodrigo@titanrealtyinvestments.com or (561) 412-6929.</p>
                 </div>
 
                 <div>
@@ -197,8 +204,8 @@ export default function TermsConditions() {
                 <Mail className="w-6 h-6 text-[#D4AF6A] flex-shrink-0 mt-1" />
                 <div>
                   <div className="font-semibold mb-1">Email</div>
-                  <a href="mailto:support@titanrealty.com" className="text-[#D4AF6A] hover:text-[#E5C07B] transition-colors">
-                    support@titanrealty.com
+                  <a href="mailto:rodrigo@titanrealtyinvestments.com" className="text-[#D4AF6A] hover:text-[#E5C07B] transition-colors">
+                    rodrigo@titanrealtyinvestments.com
                   </a>
                 </div>
               </div>
