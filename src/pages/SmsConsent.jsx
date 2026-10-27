@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { useSeo } from '@/lib/seo';
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { Input } from '@/components/ui/input';
@@ -11,6 +12,12 @@ const CONSENT_ENDPOINT = 'https://YOUR-VERCEL-DOMAIN/api/consent';
 const CONSENT_TEXT = 'By checking this box and submitting, I agree to receive SMS text messages from Titan Realty Investments at the mobile number above about properties I have listed or discussed with Titan. Message frequency varies (usually a few messages per conversation). Message and data rates may apply. Reply STOP at any time to opt out and HELP for help. Consent is not a condition of any purchase.';
 
 export default function SmsConsent() {
+  useSeo({
+    title: 'SMS Opt-In Consent',
+    description: 'Opt in to receive text messages from Titan Realty Investments about properties you have listed or discussed with us.',
+    path: '/sms-consent',
+  });
+
   const [form, setForm] = useState(() => {
     const params = new URLSearchParams(window.location.search);
     return {

@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react';
+import { useSeo } from '@/lib/seo';
 import HeroSection from '../components/home/HeroSection';
 import CredibilitySection from '../components/home/CredibilitySection';
 import HowItWorksSection from '../components/home/HowItWorksSection';
@@ -7,6 +8,8 @@ import ContactSection from '../components/home/ContactSection';
 import Footer from '../components/home/Footer';
 
 export default function Home() {
+  useSeo({ path: '/' });
+
   useEffect(() => {
     // Smooth scroll behavior
     document.documentElement.style.scrollBehavior = 'smooth';

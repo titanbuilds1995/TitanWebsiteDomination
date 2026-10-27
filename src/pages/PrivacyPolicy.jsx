@@ -1,9 +1,16 @@
 import React from 'react';
+import { useSeo } from '@/lib/seo';
 import { motion } from 'framer-motion';
 import { Shield, Mail, Phone } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
 export default function PrivacyPolicy() {
+  useSeo({
+    title: 'Privacy Policy',
+    description: 'How Titan Realty Investments collects, uses, and protects your information, including SMS communications.',
+    path: '/PrivacyPolicy',
+  });
+
   const lastUpdated = "January 27, 2026";
 
   return (
@@ -109,7 +116,7 @@ export default function PrivacyPolicy() {
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="text-[#B8956A] font-bold">•</span>
-                  <span><strong>Help:</strong> For assistance, reply <strong>HELP</strong> to any message or contact us at support@titanrealty.com</span>
+                  <span><strong>Help:</strong> For assistance, reply <strong>HELP</strong> to any message or contact us at rodrigo@titanrealtyinvestments.com</span>
                 </li>
               </ul>
             </div>
@@ -185,8 +192,8 @@ export default function PrivacyPolicy() {
                 <Mail className="w-6 h-6 text-[#D4AF6A] flex-shrink-0 mt-1" />
                 <div>
                   <div className="font-semibold mb-1">Email</div>
-                  <a href="mailto:support@titanrealty.com" className="text-[#D4AF6A] hover:text-[#E5C07B] transition-colors">
-                    support@titanrealty.com
+                  <a href="mailto:rodrigo@titanrealtyinvestments.com" className="text-[#D4AF6A] hover:text-[#E5C07B] transition-colors">
+                    rodrigo@titanrealtyinvestments.com
                   </a>
                 </div>
               </div>

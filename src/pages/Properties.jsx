@@ -1,8 +1,17 @@
 import React from 'react';
+import { useSeo } from '@/lib/seo';
 import { motion } from 'framer-motion';
 import { MapPin, DollarSign, Calendar } from 'lucide-react';
 
 export default function Properties() {
+  useSeo({
+    title: 'Available Properties',
+    description: 'Investment properties acquired by Titan Realty Investments in South Florida. Call or text (561) 412-6929 to learn more.',
+    path: '/Properties',
+    // Placeholder listings: keep out of search until real inventory is published.
+    noindex: true,
+  });
+
   const properties = [
     {
       id: 1,
