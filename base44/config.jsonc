@@ -1,5 +1,5 @@
 {
-  "name": "Titan Realty Investments",
+  "name": "Titan REI Pro",
   "site": {
     "installCommand": "npm install",
     "buildCommand": "npm run build",

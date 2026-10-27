@@ -1,5 +1,4 @@
 import React from 'react';
-import { useSeo } from '@/lib/seo';
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 
@@ -35,12 +34,6 @@ const sections = [
 ];
 
 export default function SmsTerms() {
-  useSeo({
-    title: 'SMS Terms & Conditions',
-    description: 'Program terms for text messages from Titan Realty Investments: how you opt in, message frequency, and how to stop.',
-    path: '/sms-terms',
-  });
-
   return (
     <div className="min-h-screen bg-white">
       <div className="bg-gradient-to-r from-blue-900 to-blue-800 text-white py-12 sm:py-16">
