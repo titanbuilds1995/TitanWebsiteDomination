@@ -44,6 +44,7 @@ export default function Footer() {
             <ul className="space-y-2 text-blue-200 font-light">
               <li><a href="#hero" className="hover:text-[#D4AF6A] transition-colors">Asset Focus</a></li>
               <li><a href="#how-it-works" className="hover:text-[#D4AF6A] transition-colors">Our Process</a></li>
+              <li><Link to={createPageUrl('SellYourLand')} className="hover:text-[#D4AF6A] transition-colors">Sell Your Land</Link></li>
               <li><a href="#about" className="hover:text-[#D4AF6A] transition-colors">Our Approach</a></li>
               <li><a href="#contact" className="hover:text-[#D4AF6A] transition-colors">Private Inquiries</a></li>
               <li>
@@ -73,7 +74,7 @@ export default function Footer() {
                   rodrigo@titanrealtyinvestments.com
                 </a>
               </li>
-              <li>Texas & Surrounding Areas</li>
+              <li>South Florida</li>
             </ul>
           </motion.div>
         </div>
@@ -82,7 +83,7 @@ export default function Footer() {
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <div className="text-center md:text-left">
               <p className="text-blue-200 text-sm">
-                © {new Date().getFullYear()} Titan Real Estate Investments. All rights reserved.
+                © {new Date().getFullYear()} Titan Realty Investments. All rights reserved.
               </p>
               <Link to="/sms-consent" className="text-sm text-blue-300 hover:text-[#D4AF6A] transition-colors underline underline-offset-4">
                 OK to text me

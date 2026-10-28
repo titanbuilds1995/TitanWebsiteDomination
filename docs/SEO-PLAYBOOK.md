@@ -60,13 +60,13 @@ must be OFF** and (Advanced settings → Structured data) **"Structured data" OF
 | 2026-10-27 | Wrong email domain (support@titanrealty.com) fixed on Privacy and Terms pages. |
 | 2026-10-27 | Home: new "What We Buy, and Where" section (`WhatWeBuySection.jsx`) with plain-language keyword copy on land, equestrian and agricultural buyers in South Florida. |
 | 2026-10-27 | Home: new FAQ section (`FaqSection.jsx`), 8 questions with `FAQPage` structured data. |
+| 2026-10-28 | New "Sell Your Land" page (`SellYourLand.jsx`) at `/SellYourLand`: 3-step off-market process, what/where we buy, call and email CTAs. Linked from the footer. |
+| 2026-10-28 | Footer fixes: "Texas & Surrounding Areas" now "South Florida"; "Titan Real Estate Investments" now "Titan Realty Investments". |
 
 ## 5. Backlog — things an agent can do WITHOUT input from Rodrigo
 
 Work top-down. Skip anything that would require inventing facts.
 
-3. **"Sell Your Land" page** (`src/pages/SellYourLand.jsx`): the process in steps, what we buy, who it
-   is for, a call CTA. Target phrase: "sell land South Florida off-market".
 4. **Asset-type pages**, one at a time, only with substantive, non-invented copy (400+ words each):
    `EquestrianEstates.jsx`, `AgriculturalLand.jsx`, `AviationIndustrialLand.jsx`.
 5. **County pages** once asset pages exist: `PalmBeachCounty.jsx`, `BrowardCounty.jsx`, etc.
@@ -95,5 +95,6 @@ Work top-down. Skip anything that would require inventing facts.
 
 ## 7. Change log (agents append here, newest first)
 
+- 2026-10-28 — Added a "Sell Your Land" page explaining how an off-market sale works, linked from the footer. Also fixed the footer, which wrongly said "Texas" and "Titan Real Estate Investments". Not live until Publish is clicked. — Claude
 - 2026-10-27 — Added a "What We Buy, and Where" section and an 8-question FAQ to the home page (FAQ also helps Google show answers in search). Both use only facts already on the site. Not live until Publish is clicked. — Claude
 - 2026-10-27 — Initial on-page SEO pass (see Section 4). — Claude, with Rodrigo.
